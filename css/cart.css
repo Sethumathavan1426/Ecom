@@ -1,0 +1,19 @@
+.cart-content .page-content {
+    padding: 10px;
+    margin: 10px;
+}
+
+.cart-content {
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+._remove_cart button{
+    text-align: center;
+}
+
+.childlistcontent{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 5px;
+}

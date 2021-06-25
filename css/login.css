@@ -1,0 +1,54 @@
+body{
+    background-color:#29b6f6;
+}
+.login-container{
+    background-color: white;
+    width: 25%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    border:1px solid #29b6f6;
+}
+.title{
+    color:#29b6f6;
+    text-align: center;
+    margin-top: 2px;
+}
+.fc-container label{
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+.fc-container input{
+    width: 100%;
+    height: 30px;
+    border-color: #29b6f6;
+    border-width:0 0 2px 0 !important;
+}
+.fc-container input:hover,
+.fc-container input:focus {
+    border-width:0 0 3px 0 !important;
+    outline: none;
+}
+.fc-container{
+    margin-bottom: 15px;
+}
+.error-msg{
+    text-align: center;
+    color:red;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.icon-wrap i {
+    position: absolute;
+    padding: 6.8px;
+}
+.icon-wrap input {
+    padding-left: 30px;
+}
+.icon-wrap-right .showpass {
+    right: 15px;
+}
+.icon-wrap-right input {
+    padding-right: 30px;
+}

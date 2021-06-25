@@ -1,0 +1,37 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+    <title>Login | E-Shop</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-icons.css">
+    <script src="../js/login.js"></script>
+    <script src="../js/data/users.js"></script>
+</head>
+
+<body>
+    <div class="login-container" id="loginContainer">
+        <h3 class="title">Login to E-Shop</h3>
+        <div class="fc-container">
+            <label>Username</label>
+            <div class="icon-wrap">
+                <i class="bi bi-person-circle"></i>
+                <input type="text" id="username" onkeyup="onkeyupEvent()" >
+            </div>
+        </div>
+        <div class="fc-container">
+            <label>Password</label>
+            <div class="icon-wrap icon-wrap-right">
+                <i class="bi bi-key"></i>
+                <input type="password" id="password" onkeyup="onkeyupEvent()" >
+                <i class="bi bi-eye showpass" onclick="togglepass()" id="togglepassel"></i>
+            </div>
+        </div>
+        <div class="error-msg" id="error-msg"></div>
+        <button class="button button-teal" onclick="onloginclick()">Login</button>
+    </div>
+    <div class="footer-content">Copyright &copy; 2021 | Developed by - Sethumathavan A B.E(CSE)</div>
+</body>
+
+</html>
